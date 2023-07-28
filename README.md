@@ -62,24 +62,12 @@ Die Tour of Heroes endet mit einem simulierten JavaScript-Backend:
 - Kapitel 6 *Getting Data from a server*
 - Abschnitt *Simulate a data server*
 
-Dieses habe ich nach Java mit Spring Boot übersetzt.
+Das Backend ist nach Java mit Spring Boot übersetzt.
 Das Java-Backend kann man über Maven starten:
 
 ```
 C:\Users\fred\git\heroes-backend> mvn spring-boot:run
 ```
-
-Alternativ importiert man `heroes-backend` in eine IDE und startet die `HeroApplication`-Klasse.
-
-Um das Java-Backend vom Frontend aus anzusprechen,
-muss man im Abschnitt *Heroes and HTTP* die Variable `heroesUrl` wie folgt anpassen:
-
-```ts
-private heroesUrl = 'http://localhost:8080/api/heroes';  // URL to web api
-//                   ^^^^^^^^^^^^^^^^^^^^^^
-```
-
-📺 [Apache Maven Tutorial](https://www.youtube.com/watch?v=ExKq23bNABk)
 
 ## Spring Boot
 
